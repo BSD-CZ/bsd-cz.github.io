@@ -1,1 +1,20 @@
+# Site settings.
+title: Czech BSD User Group
+url: "https://bsd-cz.github.io"
+#logo: "bsdpl-logo.png"
+
+# Build settings.
 theme: jekyll-theme-hacker
+
+# Social media.
+#slack_url: https://join.slack.com/t/bsd-pl/shared_invite/enQtNTY5NTc2MDQ3OTU2LTY4Mzk4OWIzYTdjMDVhZmUyMjVlZjc1YjhhOGIyYjY4OTYwNmIyOWYzYmJhZDlkZjc3YzM2N2U0NzAyZmUzYzE
+#mail_url: mailto:meetup@bsd-pl.org
+#facebook_url: https://www.facebook.com/pg/The-Polish-BSD-User-Group-2104511872897332
+#twitter_url: https://twitter.com/BSD_PL
+#youtube_url: https://www.youtube.com/channel/UCWvDQaEHSULuCIVOOM66nYA
+
+# Link to the list of events.
+#registration_url: https://www.meetup.com/Polish-BSD-User-Group/events/
+
+#nosuchmeetup_url: https://nosuchmeetup.pl/
+
