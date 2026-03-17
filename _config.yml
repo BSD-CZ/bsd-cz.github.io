@@ -3,6 +3,50 @@ description: FreeBSD, embedded systems, driver development, and modern hardware 
 url: "https://bsd-cz.github.io"
 baseurl: ""
 
+theme: jekyll-theme-hacker
+
+author:
+  name: BSD-CZ
+  email: ""
+
+github_username: BSD-CZ
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+lang: en
+timezone: Europe/Prague
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+show_excerpts: true
+
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
+
+collections:
+  projects:
+    output: truetitle: BSD-CZ
+description: FreeBSD, embedded systems, driver development, and modern hardware support
+url: "https://bsd-cz.github.io"
+baseurl: ""
+
 # Theme (GitHub Pages supported)
 theme: minima
 
