@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+  {% feed_meta %}
+  <style>
+    nav.site-nav {
+      margin-bottom: 20px;
+      padding: 10px 0;
+      border-bottom: 1px solid #404040;
+    }
+    nav.site-nav a {
+      color: #b5e853;
+      margin-right: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    nav.site-nav a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    nav.site-nav a.active {
+      color: #fff;
+      border-bottom: 2px solid #b5e853;
+      padding-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <nav>
+      <a id="header-link" href="{{ '/' | relative_url }}">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      </a>
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+    </nav>
+  </div>
+
+  <div class="wrapper">
+    <section>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+        <a href="{{ '/projects/' | relative_url }}" {% if page.url == '/projects/' %}class="active"{% endif %}>Projects</a>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      </nav>
+
+      {{ content }}
+    </section>
+    <div id="footer">
+      <span class="site-footer-credits">
+        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
+        Hosted on <a href="https://pages.github.com">GitHub Pages</a>.
+      </span>
+    </div>
+  </div>
+</body>
+</html>
