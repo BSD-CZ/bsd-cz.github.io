@@ -11,6 +11,16 @@
   <![endif]-->
   {% feed_meta %}
   <style>
+    /* --- Centrovani stranky --- */
+    #header {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
     nav.site-nav {
       margin-bottom: 20px;
       padding: 10px 0;
@@ -44,7 +54,6 @@
       <p>{{ site.description | default: site.github.project_tagline }}</p>
     </nav>
   </div>
-
   <div class="wrapper">
     <section>
       <nav class="site-nav">
@@ -53,14 +62,13 @@
         <a href="{{ '/projects/' | relative_url }}" {% if page.url == '/projects/' %}class="active"{% endif %}>Projects</a>
         <a href="https://github.com/{{ site.github_username }}">GitHub</a>
       </nav>
-
       {{ content }}
     </section>
     <div id="footer">
       <span class="site-footer-credits">
         &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
         Hosted on <a href="https://pages.github.com">GitHub Pages</a>.
-      </span>
+        </span>
     </div>
   </div>
 </body>
