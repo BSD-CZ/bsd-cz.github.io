@@ -4,10 +4,6 @@ title: Home
 permalink: /
 ---
 
-**FreeBSD community focused on embedded systems, driver development, and modern hardware support.**
-
----
-
 ## What we do
 
 We work on bringing FreeBSD to modern hardware and embedded platforms. Our focus areas include:
