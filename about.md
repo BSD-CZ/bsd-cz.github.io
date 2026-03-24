@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-# About BSD-CZ
+# About BSD-CZ/SK
 
-BSD-CZ is a Czech FreeBSD community dedicated to practical BSD work — drivers, embedded systems, and hardware enablement.
+BSD-CZ/SK is a Czech/Slovak FreeBSD community dedicated to practical BSD work — drivers, embedded systems, and hardware enablement.
 
 ## Our mission
 
@@ -27,6 +27,6 @@ FreeBSD is a rock-solid operating system, but hardware support sometimes lags be
 
 ## Contact
 
-- GitHub: [github.com/BSD-CZ](https://github.com/BSD-CZ)
-- Signal: [Join our Signal group](https://signal.group/#CjQKIM4RZf--zUk3Y7b7XkL2JqS1F1zpLJuCENwGsA4zsWzEEhCEozrnLAXsmHyjTcRieopR)
-- Location: Prague, Czech Republic
+- GitHub: [github.com/BSD-CZ/SK](https://github.com/BSD-CZ)
+- Signal: [Join our Signal group (BSD CZ/SK) ](https://signal.group/#CjQKIM4RZf--zUk3Y7b7XkL2JqS1F1zpLJuCENwGsA4zsWzEEhCEozrnLAXsmHyjTcRieopR)
+- Location: Prague , Czech Republic
