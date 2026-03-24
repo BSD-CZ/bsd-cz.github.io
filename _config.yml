@@ -1,11 +1,11 @@
-title: BSD-CZ
+title: BSD-CZ/SK Group
 description: FreeBSD, embedded systems, driver development, and modern hardware support
 url: "https://bsd-cz.github.io"
 baseurl: ""
 theme: jekyll-theme-hacker
 
 author:
-  name: BSD-CZ
+  name: BSD-CZ/SK
   email: ""
 
 github_username: BSD-CZ
