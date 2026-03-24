@@ -28,4 +28,5 @@ FreeBSD is a rock-solid operating system, but hardware support sometimes lags be
 ## Contact
 
 - GitHub: [github.com/BSD-CZ](https://github.com/BSD-CZ)
+- Signal: [Join our Signal group](https://signal.group/#CjQKIM4RZf--zUk3Y7b7XkL2JqS1F1zpLJuCENwGsA4zsWzEEhCEozrnLAXsmHyjTcRieopR)
 - Location: Prague, Czech Republic
