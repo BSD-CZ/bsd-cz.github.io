@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-Current and past work by BSD-CZ.
+Current and past work by BSD-CZ/SK.
 
 ---
 
