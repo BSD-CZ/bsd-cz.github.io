@@ -1,6 +1,6 @@
 # About BSD-CZ
 
-BSD-CZ is a Czech FreeBSD community dedicated to practical BSD work — drivers, embedded systems, and hardware enablement.
+BSD-CZ/SK is a CzechSlovak FreeBSD community dedicated to practical BSD-CZ/SK work — drivers, embedded systems, and hardware enablement.
 
 ## Our mission
 
@@ -21,7 +21,7 @@ FreeBSD is a rock-solid operating system, but hardware support sometimes lags be
 
 ## Contact
 
-- GitHub: [github.com/BSD-CZ](https://github.com/BSD-CZ)
+- GitHub: [github.com/BSD-CZ/SK](https://github.com/BSD-CZ)
 - Location: Prague, Czech Republic
 
 
