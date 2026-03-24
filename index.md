@@ -4,8 +4,6 @@ title: Home
 permalink: /
 ---
 
-# BSD-CZ/SK
-
 **FreeBSD community focused on embedded systems, driver development, and modern hardware support.**
 
 ---
