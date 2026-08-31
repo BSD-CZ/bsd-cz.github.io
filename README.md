@@ -1,4 +1,4 @@
-# About BSD-CZ
+# About BSD-CZ/SK Group
 
 BSD-CZ/SK is a CzechSlovak FreeBSD community dedicated to practical BSD-CZ/SK work — drivers, embedded systems, and hardware enablement.
 
