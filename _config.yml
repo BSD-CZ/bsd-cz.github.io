@@ -16,6 +16,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 lang: en
 timezone: Europe/Prague
