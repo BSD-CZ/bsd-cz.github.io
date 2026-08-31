@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-layout: default
->>>>>>> c395102 (update project pages)
 title: Banana Pi BPI-R2
 description: FreeBSD on MediaTek MT7623 — the whole clock and pinctrl foundation, built from nothing
 soc: MediaTek MT7623
@@ -11,19 +7,9 @@ order: 5
 repo: https://github.com/Martinfx/freebsd-src/tree/max-support-bananapi-bpi-r2-7623
 ---
 
-<<<<<<< HEAD
 ## The board
 
 | Hardware | Banana Pi BPI-R2 |
-=======
-# {{ page.title }}
-
-{{ page.description }}
-
-## The board
-
-| | |
->>>>>>> c395102 (update project pages)
 | --- | --- |
 | SoC | MediaTek MT7623N, quad Cortex-A7 @ 1.3 GHz |
 | Network | 5x GbE |

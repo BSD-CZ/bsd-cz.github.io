@@ -60,7 +60,6 @@ permalink: /
   </div>
 </section>
 
-<<<<<<< HEAD
 <section class="section">
   <div class="wrap">
     <div class="section-head">
@@ -117,20 +116,6 @@ permalink: /
     </div>
   </div>
 </section>
-=======
-**[SoCBSD]({{ site.baseurl }}/projects/socbsd.html)** — a FreeBSD fork dedicated to SoC board bring-up. Hundreds of boards run Linux, only a handful run FreeBSD, and solo bring-up is why. Boards are brought up collaboratively, every claim is backed by a serial log from real hardware, and finished boards go upstream to FreeBSD with every contributor's name on the patchset.
-
-### Boards
-
-| Board | SoC | State |
-| --- | --- | --- |
-| [Banana Pi R2 Pro]({{ site.baseurl }}/projects/bpi-r2-pro.html) | Rockchip RK3568 + MT7531 | Routes — switch driver needs cleanup |
-| [Banana Pi BPI-R64]({{ site.baseurl }}/projects/bpi-r64.html) | MediaTek MT7622 | Ethernet, switch and WiFi drivers written |
-| [Banana Pi BPI-R2]({{ site.baseurl }}/projects/bpi-r2.html) | MediaTek MT7623 | Clocks, pinctrl, GPIO, SMP done |
-| [Banana Pi BPI-R3]({{ site.baseurl }}/projects/bpi-r3.html) | MediaTek MT7986 | Not started — needs someone with the board |
-
-Alongside the kernel work: [ports maintenance]({{ site.baseurl }}/projects/freebsd-ports.html) — boot firmware, recovery tooling, and 80+ ports so the software people actually want is there when the board boots.
->>>>>>> c395102 (update project pages)
 
 {% if site.posts.size > 0 %}
 <section class="section">

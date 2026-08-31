@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-layout: default
->>>>>>> c395102 (update project pages)
 title: Banana Pi R2 Pro
 description: FreeBSD on the Rockchip RK3568 router board — switch works, the board routes
 soc: Rockchip RK3568
@@ -13,19 +9,9 @@ redirect_from:
   - /projects/support-bananapi-r2-pro.html
 ---
 
-<<<<<<< HEAD
 ## The board
 
 | Hardware | Banana Pi R2 Pro |
-=======
-# {{ page.title }}
-
-{{ page.description }}
-
-## The board
-
-| | |
->>>>>>> c395102 (update project pages)
 | --- | --- |
 | SoC | Rockchip RK3568, quad Cortex-A55 @ 2.0 GHz |
 | Switch | MediaTek MT7531BE — 5x GbE (1 WAN, 4 LAN) |

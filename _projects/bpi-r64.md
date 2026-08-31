@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-layout: default
->>>>>>> c395102 (update project pages)
 title: Banana Pi BPI-R64
 description: FreeBSD on MediaTek MT7622 — ethernet, switch and WiFi drivers written from scratch
 soc: MediaTek MT7622
@@ -11,19 +7,9 @@ order: 4
 repo: https://github.com/Martinfx/freebsd-src/tree/max-support-mediatek-7622-bananapir64
 ---
 
-<<<<<<< HEAD
 ## The board
 
 | Hardware | Banana Pi BPI-R64 |
-=======
-# {{ page.title }}
-
-{{ page.description }}
-
-## The board
-
-| | |
->>>>>>> c395102 (update project pages)
 | --- | --- |
 | SoC | MediaTek MT7622, dual Cortex-A53 @ 1.35 GHz |
 | Switch | MediaTek MT7531 — 4x GbE LAN + 1x GbE WAN |

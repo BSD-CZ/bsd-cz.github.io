@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-layout: default
->>>>>>> c395102 (update project pages)
 title: Banana Pi BPI-R3
 description: MediaTek MT7986 (Filogic 830) — the next router board, not started yet
 soc: MediaTek MT7986
@@ -11,19 +7,9 @@ order: 6
 repo: https://github.com/SoCBSD/socbsd-src
 ---
 
-<<<<<<< HEAD
 ## The board
 
 | Hardware | Banana Pi BPI-R3 |
-=======
-# {{ page.title }}
-
-{{ page.description }}
-
-## The board
-
-| | |
->>>>>>> c395102 (update project pages)
 | --- | --- |
 | SoC | MediaTek MT7986 "Filogic 830", quad Cortex-A53 @ 2.0 GHz |
 | Network | 2x 2.5GbE SFP (fixed 2.5GBASE-X) + 5x GbE |
