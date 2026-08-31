@@ -3,7 +3,7 @@ layout: default
 title: Port ARM Compute library
 description: Porting  ARM Compute library to FreeBSD
 status: Done
-order: 6
+order: 7
 repo: https://github.com/Martinfx/FreeBSD-Ports/tree/master/computelibrary
 ---
 
