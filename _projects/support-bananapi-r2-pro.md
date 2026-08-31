@@ -3,7 +3,8 @@ layout: default
 title: Driver MT7531 for Bananpi R2 PRO
 description: Added driver MT7531 switch to ChaosBSD
 status: Done
-repo: https://github.com/BSD-CZ
+order: 5
+repo: https://github.com/SoCBSD/socbsd-src/tree/arena/bananapi-r2-pro
 ---
 
 # {{ page.title }}
@@ -20,3 +21,5 @@ This means the board is no longer just a dev toy — it can actually be deployed
 Switching, ports, and forwarding are operational, so NAT and standard router setups using pf are usable in practice.
 Another step toward proper MediaTek SoC support in the ChaosBSD kernel. If you have an R2 Pro, you can start testing it as an actual router, not just a boot experiment. 
 IMPORTANT: The current implementation contains several temporary hacks and workarounds that are known to be sub-optimal.
+
+Cleaning those up, and the rest of the board's bring-up, now runs in the Banana Pi R2 Pro arena in [SoCBSD]({{ '/projects/socbsd.html' | relative_url }}) — where other people who own the board can verify the work instead of it sitting in one fork.
