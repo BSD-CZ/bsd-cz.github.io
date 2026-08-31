@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      BSD-CZ<span class="dot">/</span>SK
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} class="active"{% endif %}>Projects</a>
+      <a href="{{ '/ports/' | relative_url }}"{% if page.url contains '/ports' %} class="active" aria-current="page"{% endif %}>Ports</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active" aria-current="page"{% endif %}>About</a>
+      <a href="https://github.com/SoCBSD" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>

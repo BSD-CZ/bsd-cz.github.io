@@ -1,0 +1,43 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Work</h3>
+        <ul>
+          <li><a href="{{ '/projects/socbsd.html' | relative_url }}">SoCBSD</a></li>
+          <li><a href="{{ '/ports/' | relative_url }}">FreeBSD ports</a></li>
+          <li><a href="{{ '/projects/' | relative_url }}">All projects</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Boards</h3>
+        <ul>
+          <li><a href="{{ '/projects/bpi-r2-pro.html' | relative_url }}">Banana Pi R2 Pro</a></li>
+          <li><a href="{{ '/projects/bpi-r64.html' | relative_url }}">Banana Pi BPI-R64</a></li>
+          <li><a href="{{ '/projects/bpi-r2.html' | relative_url }}">Banana Pi BPI-R2</a></li>
+          <li><a href="{{ '/projects/bpi-r3.html' | relative_url }}">Banana Pi BPI-R3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Code</h3>
+        <ul>
+          <li><a href="https://github.com/SoCBSD/socbsd-src" rel="noopener">SoCBSD/socbsd-src</a></li>
+          <li><a href="https://github.com/Martinfx/FreeBSD-Ports" rel="noopener">Ports tree</a></li>
+          <li><a href="https://github.com/BSD-CZ" rel="noopener">github.com/BSD-CZ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Community</h3>
+        <ul>
+          <li><a href="https://signal.group/#CjQKIM4RZf--zUk3Y7b7XkL2JqS1F1zpLJuCENwGsA4zsWzEEhCEozrnLAXsmHyjTcRieopR" rel="noopener">Signal group</a></li>
+          <li><a href="https://discord.gg/3B4dZZAH" rel="noopener">Discord</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} · Prague, Czech Republic</span>
+      <span>FreeBSD on hardware that does not support it yet.</span>
+    </div>
+  </div>
+</footer>

@@ -1,14 +1,18 @@
-title: BSD-CZ/SK User Group
-description: FreeBSD, embedded systems, driver development, and modern hardware support
-url: "https://bsd-cz.github.io"
+title: BSD-CZ/SK
+tagline: FreeBSD on hardware that does not support it yet
+description: >-
+  Czech/Slovak FreeBSD group doing SoC board bring-up, kernel driver
+  development and ports maintenance — MediaTek and Rockchip router boards,
+  embedded ARM, and 80+ FreeBSD ports.
+url: "https://bsd-cz.org"
 baseurl: ""
-theme: jekyll-theme-hacker
 
 author:
   name: BSD-CZ/SK
   email: ""
 
 github_username: BSD-CZ
+logo: /assets/img/og.png
 
 markdown: kramdown
 highlighter: rouge
@@ -16,21 +20,28 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-redirect-from
 
 lang: en
 timezone: Europe/Prague
-
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+      image: /assets/img/og.png
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 show_excerpts: true
 
@@ -39,6 +50,8 @@ exclude:
   - LICENSE
   - node_modules
   - vendor
+  - Gemfile
+  - Gemfile.lock
 
 collections:
   projects:

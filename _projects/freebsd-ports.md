@@ -1,15 +1,10 @@
 ---
-layout: default
 title: FreeBSD ports
 description: Creating and maintaining ports so software that never ran on FreeBSD does
 status: Ongoing
 order: 2
 repo: https://github.com/Martinfx/FreeBSD-Ports
 ---
-
-# {{ page.title }}
-
-{{ page.description }}
 
 FreeBSD ships tens of thousands of ports, but there is always software that has never been packaged, or that quietly stopped building on current releases and architectures. This is the ongoing work of closing those holes: new ports, build fixes, dependency updates, and patches sent upstream so the fix does not have to live in a local tree forever.
 

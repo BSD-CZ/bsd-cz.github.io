@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="page-head">
+  <div class="wrap">
+    <a class="back-link" href="{{ '/projects/' | relative_url }}">&larr; All projects</a>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    <div class="meta-row">
+      {% if page.status %}
+        {% assign badge = page.status | downcase | replace: ' ', '' %}
+        <span class="badge badge-{{ badge }}">{{ page.status }}</span>
+      {% endif %}
+      {% if page.soc %}<span class="badge badge-plain">{{ page.soc }}</span>{% endif %}
+      {% if page.repo %}<a class="badge badge-plain" href="{{ page.repo }}" rel="noopener">Source &rarr;</a>{% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="wrap-narrow">
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</div>

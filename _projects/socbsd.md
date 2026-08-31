@@ -1,5 +1,4 @@
 ---
-layout: default
 title: SoCBSD
 description: FreeBSD fork dedicated to SoC board bring-up — collaborative, hardware-verified, upstream-bound
 soc: Multiple
@@ -7,10 +6,6 @@ status: In progress
 order: 1
 repo: https://github.com/SoCBSD/socbsd-src
 ---
-
-# {{ page.title }}
-
-{{ page.description }}
 
 Hundreds of boards run Linux. Only a handful run FreeBSD. **SoCBSD** exists to close that gap: a FreeBSD fork whose only job is bringing FreeBSD up on SoC boards it does not support today. It is a playground, not a distro — no ISOs, no wallpapers, no retro archaeology.
 
